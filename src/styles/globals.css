@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  
+  header {
+    @apply fixed flex w-full  p-0 transition-all;
+  }
+
+  .hero {
+  background-image: linear-gradient(180deg, rgba(11, 9, 27, 0.31) 0%, #0B091C 100%), url('/img/bgg.jfif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* img {
+  max-width: 100%;
+  display: block;
+} */
+  
+}
+
+
+
