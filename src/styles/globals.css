@@ -6,7 +6,7 @@
 @layer components {
   
   header {
-    @apply fixed flex w-full  p-0 transition-all;
+    @apply flex w-full  p-0 transition-all;
   }
 
   .hero {
@@ -39,10 +39,10 @@ a:hover {
   text-decoration: underline;
 }
 
-/* img {
+img {
   max-width: 100%;
   display: block;
-} */
+}
   
 }
 

@@ -1,11 +1,12 @@
+import React from 'react';
 import Link from 'next/link'
-// import Image from 'next/image'
+import Image from 'next/image'
 
 function Footer() {
   return (
     <footer className='block lg:flex bg-black px-20 py-10 text-white'>
       <div className='py-10'>
-        <img className="rounded-full w-16 h-16" src="/img/logo1.jfif" alt="Contribot logo" />
+        <Image className="rounded-full w-16 h-16" src="/img/logo1.jfif" width="64" height="64" alt="Contribot logo" />
       </div>
       <div className='flex lg:ml-60'>
         <ul>

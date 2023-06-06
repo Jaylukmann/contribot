@@ -10,11 +10,8 @@ type DashboardLayoutProps = {
 function BaseLayout({ children }: DashboardLayoutProps) {
   return (
     <>
-    <div>
-        <Header />
-      </div>
-      <div><Hero/></div>
-    
+    <div><Header/></div>
+    <div><Hero/></div>
      <main>{children}</main> 
       <Footer/>
     </>
