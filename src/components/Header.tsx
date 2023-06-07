@@ -6,13 +6,14 @@ import Image from 'next/image'
 
 function Header() {
   return (
-  <header className='header'>
+  <header className=' header flex mb-10'>
  
-    <div className='pt-0'>
+    <div className='pr-[50px] mr-[50px]'>
         <Link href="/"><Image className='rounded-full w-10 h-10' src="/img/logo1.jfif"  width="40" height="40" alt="Contribot logo" /></Link> 
           </div>
 
-      <ul className='flex space-x-16 justify-content bg-gray-50 text-black font-dm text-[16px] font-semibold'>
+      <ul className='flex space-x-36   justify-between  bg-green-800 text-white font-dm text-[16px] font-semibold 
+        '>
           <li className=''>
             <Link href="/">Home</Link>
           </li>
