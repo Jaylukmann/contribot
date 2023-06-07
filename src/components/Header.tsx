@@ -8,11 +8,11 @@ function Header() {
   return (
   <header className=' header flex mb-10'>
  
-    <div className='pr-[50px] mr-[50px]'>
+    <div className='pr-2'>
         <Link href="/"><Image className='rounded-full w-10 h-10' src="/img/logo1.jfif"  width="40" height="40" alt="Contribot logo" /></Link> 
           </div>
 
-      <ul className='flex space-x-36   justify-between  bg-green-800 text-white font-dm text-[16px] font-semibold 
+      <ul className='flex space-x-36 justify-evenly items-center  bg-black text-white text-[16px] font-semibold 
         '>
           <li className=''>
             <Link href="/">Home</Link>
